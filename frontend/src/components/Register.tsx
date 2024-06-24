@@ -1,10 +1,10 @@
 import { useState } from "react";
-import { useNavigate, Link } from "react-router-dom";
+import {  Link } from "react-router-dom";
 import axios from "axios";
 import URL from "../URL";
 import "../index.css";
 function Register() {
-    const navigate = useNavigate();
+    
     const [ErrorMessage, setErrorMessage] = useState("");
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
