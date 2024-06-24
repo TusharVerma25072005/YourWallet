@@ -1,13 +1,13 @@
 import URL from "../URL";
 import axios from "axios";
-import { useNavigate, Link } from "react-router-dom";
+import {  Link } from "react-router-dom";
 import { useState } from "react";
 import { user } from "../atoms";
 import { useSetRecoilState } from "recoil";
 import "../index.css";
 
 function Login() {
-    const navigate = useNavigate();
+    
     const setUser = useSetRecoilState(user);
     const [ErrorMessage, setErrorMessage] = useState("");
     const [email, setEmail] = useState("");

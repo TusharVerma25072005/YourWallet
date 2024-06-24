@@ -1,0 +1,25 @@
+{
+    "carousel" : [
+        {
+            "image" : "https://i0.wp.com/blogrevamp.cashfree.com/wp-content/uploads/2022/11/thumbnail-2.png?fit=1200%2C800&ssl=1"
+            ,"alt" : "image1"
+            ,"id" : "1"
+        },
+        {
+            "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFBTwgp-rlhVwSyhDto3pWkCEgLZAsXF8A0Zi7qSvDr1SAYsu4bQMM-tn3FKwWVIdp4Dw&usqp=CAU"
+            ,"alt" : "image2"
+            ,"id" : "2"
+        },
+        {
+            "image" : "https://www.ecspayments.com/wp-content/uploads/2023/07/Accepting-Secure-E-wallet-Payments-Gives-Your-Business-a-Competitive-Edge1.jpg"
+            ,"alt" : "image3"
+            ,"id" : "3"
+        },
+        {
+            "image" : "https://assets.website-files.com/6277e4df50fd58d2359b4f00/633ead3a421b06625157ce7c_e%20wallet%202.png"
+            ,"alt" : "image4"
+            ,"id" : "4"
+        }
+
+    ]
+}
