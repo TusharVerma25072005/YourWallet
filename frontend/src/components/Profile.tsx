@@ -5,12 +5,7 @@ import axios from 'axios';
 import URL from '../URL';
 import { useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
-
-type UserType = {
-    id : string,
-    name : string,
-    email : string
-}
+import { UserType } from '../types/UserType';
 
 function Profile(){
     return (

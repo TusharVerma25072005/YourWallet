@@ -1,15 +1,9 @@
-import { useEffect } from 'react';
-import { useNavigate, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 
 function TopBar() {
-    const Navigate = useNavigate();
     const token = localStorage.getItem('token');
-    useEffect(() => {
-        if (!token) {
-            Navigate('/login')
-        }
-    }, [token, Navigate]);
+    
     return (
         <div className='p-2 mt-1 flex justify-between border-b-2'>
             <div className='text-xl pl-2 font-bold'>

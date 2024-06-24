@@ -5,12 +5,7 @@ import { useRecoilState } from "recoil";
 import { balance } from "../atoms";
 import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
-
-type fetchedUsers = {
-    id : number,
-    name : string
-    email : string
-}
+import { fetchedUsers } from "../types/FetchedUsers";
 
 function Transfer(){
     return (
